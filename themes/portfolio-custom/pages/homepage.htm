@@ -1,0 +1,28 @@
+title = "homepage"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+<section">
+    {% partial "pages-all/nav" %}
+</section>
+
+<section">
+    {% partial "pages-home/landing" %}
+</section>
+
+<section class="bg-primary" id="about">
+    {% partial "pages-home/about" %}
+</section>
+
+<section id="skills">
+ {% partial "pages-home/skills" %}
+</section>
+
+<section class="no-padding" id="portfolio">
+ {% partial "pages-home/portfolio" %}
+</section>
+
+<section id="contact-me">
+ {% partial "pages-home/contact" %}
+</section>
